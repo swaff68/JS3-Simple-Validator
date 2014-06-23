@@ -1,23 +1,23 @@
-// alert('Please provide your phone #.  Dont worry, you can trust me!');
-// var i = 0;
-// while(i===0){
-// 	var phoneNumber = prompt("Phone Number " + "XXX-XXX-XXXX");
-// 	if(phoneNumber.length===12) {
-// 		if(phoneNumber.charAt(3)==="-" && phoneNumber.charAt(7)==="-"){
-// 			alert("Looks good, thanks");
-// 			i=1;
-// 		}
-// 		else {
-// 			alert("Please try again!");
+alert('Please provide your phone #.  Dont worry, you can trust me!');
+var i = 0;
+while(i===0){
+	var phoneNumber = prompt("Phone Number " + "XXX-XXX-XXXX");
+	if(phoneNumber.length===12) {
+		if(phoneNumber.charAt(3)==="-" && phoneNumber.charAt(7)==="-"){
+			alert("Looks good, thanks");
+			i=1;
+		}
+		else {
+			alert("Please try again!");
 
 
-// 		}
+		}
 		
-// 	}
-// 	else {
-// 			alert("Please try again!");
-// 		}
-// }
+	}
+	else {
+			alert("Please try again!");
+		}
+}
 
 alert('Please provide your: date of birth, zip code, state, and maritial status.');
 var i = 0;
